@@ -83,7 +83,8 @@ function draw() {
   //displaying score
   text("Score: "+ score, 500,50);
   
-  
+ 
+  camera.y=trex.y
   if(gameState === PLAY){
 
     gameOver.visible = false;
